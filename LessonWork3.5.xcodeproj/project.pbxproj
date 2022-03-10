@@ -11,6 +11,16 @@
 		9C49C47D27DA6BE1009F3080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C47C27DA6BE1009F3080 /* ContentView.swift */; };
 		9C49C47F27DA6BE3009F3080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49C47E27DA6BE3009F3080 /* Assets.xcassets */; };
 		9C49C48227DA6BE3009F3080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49C48127DA6BE3009F3080 /* Preview Assets.xcassets */; };
+		9C49C48927DA6CE9009F3080 /* TimeLineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C48827DA6CE9009F3080 /* TimeLineInfo.swift */; };
+		9C49C49027DA6DB5009F3080 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C48B27DA6DB5009F3080 /* TimelineTableViewCell.swift */; };
+		9C49C49127DA6DB5009F3080 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C48C27DA6DB5009F3080 /* Timeline.swift */; };
+		9C49C49227DA6DB5009F3080 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C48E27DA6DB5009F3080 /* TimelinePoint.swift */; };
+		9C49C49327DA6DB5009F3080 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C49C48F27DA6DB5009F3080 /* TimelineTableViewCell.xib */; };
+		9C49C49727DA6ED9009F3080 /* FlightInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49527DA6ED9009F3080 /* FlightInformation.swift */; };
+		9C49C49827DA6ED9009F3080 /* FlightHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49627DA6ED9009F3080 /* FlightHistory.swift */; };
+		9C49C49A27DA73BF009F3080 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49927DA73BF009F3080 /* HomeScreen.swift */; };
+		9C49C49C27DA74B1009F3080 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49B27DA74B1009F3080 /* UserProfile.swift */; };
+		9C49C49E27DA7760009F3080 /* FlightBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49D27DA7760009F3080 /* FlightBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		9C49C47C27DA6BE1009F3080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C49C47E27DA6BE3009F3080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C49C48127DA6BE3009F3080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C49C48827DA6CE9009F3080 /* TimeLineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineInfo.swift; sourceTree = "<group>"; };
+		9C49C48B27DA6DB5009F3080 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		9C49C48C27DA6DB5009F3080 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		9C49C48D27DA6DB5009F3080 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
+		9C49C48E27DA6DB5009F3080 /* TimelinePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePoint.swift; sourceTree = "<group>"; };
+		9C49C48F27DA6DB5009F3080 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		9C49C49527DA6ED9009F3080 /* FlightInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInformation.swift; sourceTree = "<group>"; };
+		9C49C49627DA6ED9009F3080 /* FlightHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightHistory.swift; sourceTree = "<group>"; };
+		9C49C49927DA73BF009F3080 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9C49C49B27DA74B1009F3080 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		9C49C49D27DA7760009F3080 /* FlightBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,14 @@
 		9C49C47927DA6BE1009F3080 /* LessonWork3.5 */ = {
 			isa = PBXGroup;
 			children = (
+				9C49C48A27DA6DB5009F3080 /* TimelineTableViewCell */,
+				9C49C49427DA6ED9009F3080 /* Models */,
 				9C49C47A27DA6BE1009F3080 /* LessonWork3_5App.swift */,
+				9C49C48827DA6CE9009F3080 /* TimeLineInfo.swift */,
+				9C49C49927DA73BF009F3080 /* HomeScreen.swift */,
+				9C49C49B27DA74B1009F3080 /* UserProfile.swift */,
 				9C49C47C27DA6BE1009F3080 /* ContentView.swift */,
+				9C49C49D27DA7760009F3080 /* FlightBoard.swift */,
 				9C49C47E27DA6BE3009F3080 /* Assets.xcassets */,
 				9C49C48027DA6BE3009F3080 /* Preview Content */,
 			);
@@ -65,6 +92,27 @@
 				9C49C48127DA6BE3009F3080 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C49C48A27DA6DB5009F3080 /* TimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C49C48B27DA6DB5009F3080 /* TimelineTableViewCell.swift */,
+				9C49C48C27DA6DB5009F3080 /* Timeline.swift */,
+				9C49C48D27DA6DB5009F3080 /* TimelineTableViewCell.h */,
+				9C49C48E27DA6DB5009F3080 /* TimelinePoint.swift */,
+				9C49C48F27DA6DB5009F3080 /* TimelineTableViewCell.xib */,
+			);
+			path = TimelineTableViewCell;
+			sourceTree = "<group>";
+		};
+		9C49C49427DA6ED9009F3080 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C49C49527DA6ED9009F3080 /* FlightInformation.swift */,
+				9C49C49627DA6ED9009F3080 /* FlightHistory.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C49C48227DA6BE3009F3080 /* Preview Assets.xcassets in Resources */,
+				9C49C49327DA6DB5009F3080 /* TimelineTableViewCell.xib in Resources */,
 				9C49C47F27DA6BE3009F3080 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C49C49727DA6ED9009F3080 /* FlightInformation.swift in Sources */,
+				9C49C49027DA6DB5009F3080 /* TimelineTableViewCell.swift in Sources */,
+				9C49C49C27DA74B1009F3080 /* UserProfile.swift in Sources */,
+				9C49C48927DA6CE9009F3080 /* TimeLineInfo.swift in Sources */,
 				9C49C47D27DA6BE1009F3080 /* ContentView.swift in Sources */,
+				9C49C49127DA6DB5009F3080 /* Timeline.swift in Sources */,
+				9C49C49A27DA73BF009F3080 /* HomeScreen.swift in Sources */,
 				9C49C47B27DA6BE1009F3080 /* LessonWork3_5App.swift in Sources */,
+				9C49C49827DA6ED9009F3080 /* FlightHistory.swift in Sources */,
+				9C49C49E27DA7760009F3080 /* FlightBoard.swift in Sources */,
+				9C49C49227DA6DB5009F3080 /* TimelinePoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
