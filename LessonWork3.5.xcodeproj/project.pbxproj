@@ -21,6 +21,8 @@
 		9C49C49A27DA73BF009F3080 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49927DA73BF009F3080 /* HomeScreen.swift */; };
 		9C49C49C27DA74B1009F3080 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49B27DA74B1009F3080 /* UserProfile.swift */; };
 		9C49C49E27DA7760009F3080 /* FlightBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49D27DA7760009F3080 /* FlightBoard.swift */; };
+		9C49C4A027DB746E009F3080 /* FlightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C49F27DB746D009F3080 /* FlightRow.swift */; };
+		9C49C4A227DB78B7009F3080 /* FlightBoardInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C4A127DB78B7009F3080 /* FlightBoardInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		9C49C49927DA73BF009F3080 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		9C49C49B27DA74B1009F3080 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		9C49C49D27DA7760009F3080 /* FlightBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoard.swift; sourceTree = "<group>"; };
+		9C49C49F27DB746D009F3080 /* FlightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRow.swift; sourceTree = "<group>"; };
+		9C49C4A127DB78B7009F3080 /* FlightBoardInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoardInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				9C49C47A27DA6BE1009F3080 /* LessonWork3_5App.swift */,
 				9C49C48827DA6CE9009F3080 /* TimeLineInfo.swift */,
 				9C49C49927DA73BF009F3080 /* HomeScreen.swift */,
+				9C49C4A127DB78B7009F3080 /* FlightBoardInformation.swift */,
+				9C49C49F27DB746D009F3080 /* FlightRow.swift */,
 				9C49C49B27DA74B1009F3080 /* UserProfile.swift */,
 				9C49C47C27DA6BE1009F3080 /* ContentView.swift */,
 				9C49C49D27DA7760009F3080 /* FlightBoard.swift */,
@@ -186,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C49C4A227DB78B7009F3080 /* FlightBoardInformation.swift in Sources */,
 				9C49C49727DA6ED9009F3080 /* FlightInformation.swift in Sources */,
 				9C49C49027DA6DB5009F3080 /* TimelineTableViewCell.swift in Sources */,
 				9C49C49C27DA74B1009F3080 /* UserProfile.swift in Sources */,
@@ -194,6 +201,7 @@
 				9C49C49127DA6DB5009F3080 /* Timeline.swift in Sources */,
 				9C49C49A27DA73BF009F3080 /* HomeScreen.swift in Sources */,
 				9C49C47B27DA6BE1009F3080 /* LessonWork3_5App.swift in Sources */,
+				9C49C4A027DB746E009F3080 /* FlightRow.swift in Sources */,
 				9C49C49827DA6ED9009F3080 /* FlightHistory.swift in Sources */,
 				9C49C49E27DA7760009F3080 /* FlightBoard.swift in Sources */,
 				9C49C49227DA6DB5009F3080 /* TimelinePoint.swift in Sources */,

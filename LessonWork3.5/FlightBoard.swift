@@ -8,16 +8,27 @@
 import SwiftUI
 
 struct FlightBoard: View {
+    @State private var hideCanceled = false
     
     let boardName: String
     let flightInfo: [FlightInformation]
     
+    var showFlights: [FlightInformation] {
+        hideCanceled
+        ? flightInfo.filter { $0.status != .cancelled }
+        : flightInfo
+    }
+    
     var body: some View {
-        VStack {
-            Text(boardName)
-                .font(.title)
-                List(flightInfo) { flight in
-                    Text("\(flight.airline) \(flight.number)")
+        List(showFlights) { flight in
+                FlightRow(flight: flight)
+        }
+        .listStyle(.plain)
+        .navigationTitle(boardName)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Toggle("Wide Cancelled", isOn: $hideCanceled)
+                    .toggleStyle(.switch)
             }
         }
     }
